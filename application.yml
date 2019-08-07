@@ -1,0 +1,14 @@
+spring:
+  prfiles:
+    active:
+      - dev
+---
+spring:
+  prfiles: dev
+  application:
+    name: dev
+---
+spring:
+  prfiles: test
+  application:
+    name: test
